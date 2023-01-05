@@ -1,17 +1,36 @@
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 325px) {
 
-  #cardprincipal{
-    width: 0rem;
+ 
+  #centersm{
+    display: block;
+    margin-left: -15px !important;
+}
+  #direta{
+    margin-left: 20px;
   }
+  #iptu{
+    width: 50% !important;
+    margin-left: 66px !important;
+  }
+  #egov{
+    margin-left: 15px !important;
+  }
+  #apple{
+    margin-left: 0 !important;
+  }
+  #play{
+    margin-left: 10px !important;
+  }
+  #cardprincipal{
+    width: 16rem !important;
+  }
+
 }
 @media screen and (max-width: 375px) {
-  #centersm{
-      display: block;
-      padding-left: 0.5rem;
-  }
+  
   #lee_iframe{
     width: 290px !important; 
     height: 400px !important;
@@ -19,6 +38,27 @@
   #cardprincipal{
     width: 20rem;
   }
+  #centersm{
+    display: block;
+    padding-left: px !important;
+}
+  #direta{
+    margin-left: 20px;
+  }
+  #iptu{
+    width: 10% !important;
+    margin-left: 75px !important;
+  }
+  #egov{
+    margin-left: 15px !important;
+  }
+  #apple{
+    margin-left: 20px !important;
+  }
+  #play{
+    margin-left: 20px !important;
+  }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -26,12 +66,29 @@
       display: none;
     }
 
-    #centersm{
-        display: block;
-        padding-left: 3.2rem;
-    }
+   
     #cardprincipal{
       width: 20rem;
+    }
+    #centersm{
+      display: block;
+      margin-left: 50px !important;
+  }
+    #direta{
+      margin-left: 20px;
+    }
+    #iptu{
+      width: 50% !important;
+      margin-left: 75px !important;
+    }
+    #egov{
+      margin-left: 15px !important;
+    }
+    #apple{
+      margin-left: 20px !important;
+    }
+    #play{
+      margin-left: 20px !important;
     }
     
   }
@@ -44,6 +101,10 @@
       bottom:20px; 
       right: 12rem !important;
       width: 20px;
+    }
+    #iptu{
+      width: 20% !important;
+      
     }
   }
 
@@ -59,6 +120,29 @@
     }
     #cardprincipal{
       width: 150rem;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    #lee_button{
+      bottom:20px; 
+      right: 12rem !important;
+      width: 20px;
+    }
+    #iptu{
+      width: 50% !important;
+      margin-right: 150px !important;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    #lee_button{
+      bottom:20px; 
+      right: 12rem !important;
+      width: 20px;
+    }
+    #iptu{
+      width: 50% !important;
+      margin-left: 220px !important;
     }
   }
   
