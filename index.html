@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <title>IPTU 2023</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: #342A54;"> 
+ 
+ 
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg" style="background-color: #bfa15f;">
+    <div class="container-fluid">
+      <div class="col-4 " id="centersm" >
+        <img src="./img/logoretangular.jpg" alt="" style="width: 250px;  padding-left: 30px; padding-top: 5px; padding-bottom: 5px;" >
+      </div>
+      <div class="col-4" id="hiddensm">
+
+      </div>
+
+      <div class=" col-4" id="hiddensm"  >
+        <h1 style="color: white;">IPTU 2023</h1>
+      </div>
+    </div>
+  </nav>
+  
+
+
+
+  <div class="card container" id="cardprincipal" style="margin-top: 4rem; ">
+    <h1 class="card-title" style="text-align: center;">
+      OPÇÕES PARA EMISSÃO DA GUIA DE IPTU
+    </h1>
+    <div class="card-body row">
+      <div class="card-body row">
+    
+        <div class="row">
+        
+            <h2 style="text-align: center">EMISSÃO DIRETA</h2>
+            <br>
+          <div class="container" style=" background-color:#f3f3f3; width: 10%; text-align: center; border-radius: 1rem; margin-top: 30px; margin-bottom: 30px;">
+            <a href="https://egov.mesquita.rj.gov.br/trb/form.jsp?sys=TR2&action=openform&formID=10051" target="_blank" class="" style="text-decoration: none; ">
+              <img src="img/free-document-icon-901-thumb.png" style="height: 60px;" alt="">
+              <br>
+              <h5 class="card-title" style="color: black; ">IPTU</h5>
+            </a>
+          </div>
+          <BR>
+          <h2 style="text-align: center " >PELO APLICATIVO EGOV</h2>
+          
+          <div class="container"  style=" margin-left: 10rem; width: 10%; text-align: center; border-radius: 1rem; margin-top: 30px;">
+            <a href="https://apps.apple.com/gy/app/egov-cidades/id1550466260" target="_blank" class="" style="text-decoration: none; ">
+              <img src="img/apple.png" style="height: 60px;" alt="">
+              <br>
+              
+            </a>
+          </div>
+          <div class="container"  style="  width: 10%; text-align: center; border-radius: 1rem; margin-top: 30px ;">
+            <a href="https://play.google.com/store/apps/details?id=br.com.modernizacaopublica.egovcidades&pli=1" target="_blank" class="" style="text-decoration: none; ">
+              <img src="img/pt-br_badge_web_generic.png" style="height: 66px;" alt="">
+              <br>
+              
+            </a>
+          </div>
+         
+          
+        </div>   
+      </div>   
+    </div>
+  </div>
+
+
+
+
+
+<!-- MIA BOT -->
+  <div class="container">
+    <div class="float-end">
+      <a id="lee_button" style="
+            position:fixed;
+            bottom:20px; 
+            right: 10rem;
+            width: 20px; ">
+        <img id="imgmia" style="height: 8rem" src="/img/roboNovo_2.png">
+      </a>
+    </div>  
+  <div
+      id="lee_iframe" 
+      style=" display: none;
+      
+      ">
+      
+      <a style="
+          position:fixed;
+          bottom:469px;
+          right:9px; 
+          width: 363px; 
+          height:52px;
+          z-index: 50;
+          color: transparent;
+          
+        
+          ">
+          </a>
+      <iframe  class="animationbb"
+          id="lee_iframe"
+          src="https://egov.mesquita.rj.gov.br/chatbot/"
+          style="
+          position:fixed;
+          bottom:20px;
+          right: 20px; 
+          width: 350px; 
+          height: 500px;
+          transition-property: opacity, left;
+          transition-duration: 3s, 5s;    
+          "> 
+      
+      </iframe>
+  </div>
+
+
+  <script>
+
+
+      var button = document.getElementById('lee_button');
+      
+      button.onclick = function() {
+      var div = document.getElementById('lee_iframe');
+      if (div.style.display !== 'none') {
+          div.style.display = 'none';
+      }
+      else {
+          div.style.display = 'block';
+      }
+  };
+
+
+  document.addEventListener('mouseup', function(e) {
+      var container = document.getElementById('lee_iframe');
+      if (!container.contains(e.target)) {
+          container.style.display = 'none';
+      }
+  });
+
+  </script>
+
+  <style>
+    @keyframes slidein {
+      from {
+          right: 0px;
+          
+      }
+      
+      to {
+        right: 30px;
+      }
+    }
+
+    .animationbb {
+        animation: slidein 0.5s linear;
+    }
+  </style>
+</div>
+
+
+<div >
+
+
+</div>
+
+  <div class="container" >
+    <p>
+      <a href="http://devs.mesquita.rj.gov.br/" target="_blank"><i style=" color:rgb(255, 255, 255)" class="fab fa-free-code-camp"></i></a> <p style="color: white;">  © 2021 Equipe de Desenvolvimento de Sistemas - Subsecretaria da Tecnologia da Informação - Prefeitura Municipal de Mesquita - RJ </p> 
+    </p>  
+    </div>
+ 
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,66 @@
+
+
+
+@media screen and (max-width: 320px) {
+
+  #cardprincipal{
+    width: 0rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  #centersm{
+      display: block;
+      padding-left: 0.5rem;
+  }
+  #lee_iframe{
+    width: 290px !important; 
+    height: 400px !important;
+  }
+  #cardprincipal{
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+    #hiddensm {
+      display: none;
+    }
+
+    #centersm{
+        display: block;
+        padding-left: 3.2rem;
+    }
+    #cardprincipal{
+      width: 20rem;
+    }
+    
+  }
+
+
+  
+  
+  @media screen and (min-width: 1440px) {
+    #lee_button{
+      bottom:20px; 
+      right: 12rem !important;
+      width: 20px;
+    }
+  }
+
+  @media screen and (min-width: 2560px) {
+    #lee_button{
+      bottom:30px !important; 
+      right: 25rem !important;
+
+      
+    }
+    #imgmia{
+      height: 16rem !important;
+    }
+    #cardprincipal{
+      width: 150rem;
+    }
+  }
+  
+
+
