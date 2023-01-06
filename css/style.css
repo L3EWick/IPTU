@@ -103,16 +103,24 @@
       width: 20px;
     }
     #iptu{
-      width: 20% !important;
-      
+      width: 50% ;
+      margin-left: 300px;      
     }
+    #apple{
+      display: none;
+    }
+    #play{
+      display: none;
+    }
+    
+    
   }
 
   @media screen and (min-width: 2560px) {
     #lee_button{
       bottom:30px !important; 
       right: 25rem !important;
-
+ 
       
     }
     #imgmia{
@@ -120,6 +128,12 @@
     }
     #cardprincipal{
       width: 150rem;
+    }
+    #apple{
+      display: none;
+    }
+    #play{
+      display: none;
     }
   }
 
@@ -130,11 +144,11 @@
       width: 20px;
     }
     #iptu{
-      width: 50% !important;
-      margin-right: 150px !important;
+      width: 50% ;
+      margin-right: 50px ;
     }
   }
-  @media screen and (min-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     #lee_button{
       bottom:20px; 
       right: 12rem !important;
@@ -142,7 +156,13 @@
     }
     #iptu{
       width: 50% !important;
-      margin-left: 220px !important;
+      margin-left: 220px ;
+    }
+    #apple2{
+      display: none;
+    }
+    #play2{
+      display: none;
     }
   }
   
